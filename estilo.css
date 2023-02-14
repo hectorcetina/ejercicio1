@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: helvetica;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333;
+}
+.ancho {
+  max-width: 1200px;
+  margin: auto;
+  border: 1px red solid;
+}
+h1 {
+  text-align: center;
+  padding: 15px;
+}
+.contenedor {
+  padding: 20px;
+  /* background-color: #ccc; */
+  /* height: 400px; */
+}
+.info {
+  border: 3px blue solid;
+  float: left;
+  width: 500px;
+}
+.foto {
+  border: 3px blue solid;
+  float: right;
+  width: 500px;
+}
+.titulo2 {
+  clear: both;
+  padding-top: 20px;
+  font-weight: bold;
+}
+.trescajas {
+  background-color: #ccc;
+  padding: 15px 0px;
+  height: 400px;
+  text-align: center;
+}
+.caja1 {
+  background-color: white;
+  padding: 15px;
+  width: 300px;
+  text-align: center;
+  float: left;
+  margin-left: 100px;
+  margin-right: 40px;
+}
+.caja2 {
+  background-color: white;
+  padding: 15px;
+  width: 300px;
+  text-align: center;
+  float: left;
+  margin-right: 40px;
+}
+.caja3 {
+  background-color: white;
+  padding: 15px;
+  width: 300px;
+  text-align: center;
+  float: left;
+  margin-right: 40px;
+}
+.btn_negro {
+  padding: 10px 30px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  display: inline-block;
+}
+.contenedor_otro {
+  clear: both;
+  padding: 15px;
+  text-align: center;
+  background: rgb(242, 210, 5);
+  background: linear-gradient(
+    90deg,
+    rgba(242, 210, 5, 0.7273503151260504) 0%,
+    rgba(186, 4, 243, 1) 51%,
+    rgba(244, 2, 2, 1) 100%
+  );
+}
+.otro1 {
+  background-color: white;
+  padding: 15px;
+  width: 300px;
+  text-align: center;
+  display: inline-block;
+  margin-right: 40px;
+}
+.otro2 {
+  background-color: white;
+  padding: 15px;
+  width: 300px;
+  text-align: center;
+  display: inline-block;
+  margin-right: 40px;
+}
+.otro3 {
+  background-color: white;
+  padding: 15px;
+  width: 300px;
+  text-align: center;
+  display: inline-block;
+}
