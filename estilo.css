@@ -81,13 +81,14 @@ h1 {
   clear: both;
   padding: 15px;
   text-align: center;
-  background: rgb(242, 210, 5);
+  background-color: #a8dfe5;
+  /* background: rgb(242, 210, 5);
   background: linear-gradient(
     90deg,
     rgba(242, 210, 5, 0.7273503151260504) 0%,
     rgba(186, 4, 243, 1) 51%,
     rgba(244, 2, 2, 1) 100%
-  );
+  ); */
 }
 .otro1 {
   background-color: white;
